@@ -122,6 +122,7 @@ Your dataset outputs:
 ## 🖼️ Application Screenshot
 
 ![Failure Risk Prediction UI](./screenshot.png)
+![Failure Risk Prediction UI](./Screenshot2.png)
 
 
 ## 📁 Project Folder Structure
