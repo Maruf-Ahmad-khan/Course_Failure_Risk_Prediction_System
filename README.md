@@ -34,7 +34,7 @@ This project predicts **Failure / Success suitability risk** by analyzing histor
 ✔️ Handles Missing / Skewed Data
 ✔️ Multi-Class Prediction
 ✔️ Well Optimized Pipeline
-✔️ Responsive UI (W3School-like)
+✔️ Responsive UI 
 ✔️ Integrated Frontend + FastAPI Backend
 ✔️ Supports JSON & Web Requests
 ✔️ Visualization Support
@@ -51,7 +51,7 @@ This project predicts **Failure / Success suitability risk** by analyzing histor
 
 **Model**
 
-*  Random Forest (whichever you used)
+* Random Forest (whichever you used)
 * Label Encoding / Target Encoding
 * Train-Test Split
 
@@ -63,7 +63,7 @@ This project predicts **Failure / Success suitability risk** by analyzing histor
 **Frontend**
 
 * HTML
-* CSS (Responsive UI similar to W3Schools)
+* CSS (Responsive UI )
 * JavaScript (Fetch API)
 
 **Deployment Ready**
