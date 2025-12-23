@@ -1,4 +1,4 @@
-# Failure Risk Prediction System
+# Course Failure Risk Prediction System
 
 The **Failure Risk Prediction System** is an end-to-end Machine Learning web application designed to predict whether a job profile / candidate profile is **Suitable**, **MidSenior_Not_Suitable**, or **Senior_Not_Suitable** based on multiple attributes.
 It helps organizations automate the suitability screening process and reduce manual evaluation effort with data-driven predictions.
