@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Failure Risk Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- Chart JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Failure Risk Prediction System</h2>
+    <p class="subtitle">Enter details below to predict risk</p>
+
+    <form id="predictForm">
+
+        <div class="grid">
+
+            <div class="field">
+                <label for="Age">Age</label>
+                <input type="number" id="Age" placeholder="Enter Age">
+            </div>
+
+            <div class="field">
+                <label for="Gender">Gender</label>
+                <select id="Gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="City">City</label>
+                <input type="text" id="City" placeholder="Enter City">
+            </div>
+
+            <div class="field">
+                <label for="Highest_Qualification">Highest Qualification</label>
+                <input type="text" id="Highest_Qualification" placeholder="e.g., BTech, MTech">
+            </div>
+
+            <div class="field">
+                <label for="Stream">Stream</label>
+                <input type="text" id="Stream" placeholder="e.g., CSE, ECE">
+            </div>
+
+            <div class="field">
+                <label for="Year_Of_Completion">Year Of Completion</label>
+                <input type="number" id="Year_Of_Completion" placeholder="2024">
+            </div>
+
+            <div class="field">
+                <label for="Are_you_currently_working">Currently Working?</label>
+                <select id="Are_you_currently_working">
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="Your_Designation">Your Designation</label>
+                <input type="text" id="Your_Designation" placeholder="e.g., Data Analyst">
+            </div>
+
+            <div class="field">
+                <label for="Employment_Type">Employment Type</label>
+                <input type="text" id="Employment_Type" placeholder="Full Time / Part Time">
+            </div>
+
+            <div class="field">
+                <label for="First_Name">First Name</label>
+                <input type="text" id="First_Name">
+            </div>
+
+            <div class="field">
+                <label for="Last_Name">Last Name</label>
+                <input type="text" id="Last_Name">
+            </div>
+
+            <div class="field">
+                <label for="Company_Name">Company Name</label>
+                <input type="text" id="Company_Name">
+            </div>
+        </div>
+
+        <button type="button" onclick="submitForm()">Predict</button>
+
+    </form>
+
+    <div class="result-box">
+        <h3>Prediction Result</h3>
+        <h1 id="predictionValue">--</h1>
+    </div>
+
+    <div class="chart-card">
+        <h3>Forecast Visualization</h3>
+        <canvas id="forecastChart"></canvas>
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>

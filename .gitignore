@@ -1,0 +1,32 @@
+# Virtual Environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+artifacts/
+
+# Data files
+data/
+dataset/
+*.csv
+*.xlsx
+*.json
+
+# Build / Packaging
+*.egg-info/
+RegressorProject.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
